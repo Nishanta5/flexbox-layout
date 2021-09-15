@@ -1,0 +1,26 @@
+.main-heading {
+    background-color: rgb(174, 0, 255);
+    text-align: center;
+    padding: 1px 20px;
+    color: white;
+}
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.card {
+    background-color: turquoise;
+
+    font-size: 15px;
+    padding: 10%;
+}
+.button-group {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.button {
+    width: 100%;
+    margin-right: 10px;
+}
