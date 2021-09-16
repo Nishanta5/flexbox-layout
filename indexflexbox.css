@@ -1,0 +1,21 @@
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10%;
+}
+.card {
+    color: rgb(168, 66, 66);
+}
+.card-header {
+    background-color: rgb(133, 146, 125);
+    height: 200px;
+}
+.for-submit {
+    padding: 2px;
+    width: 100%;
+    text-align: start;
+    background-color: dimgray;
+    color: white;
+
+    font-size: 20px;
+}
