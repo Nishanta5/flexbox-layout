@@ -1,0 +1,20 @@
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.bono {
+    background-color: skyblue;
+}
+.edge {
+    background-color: yellowgreen;
+}
+.adam {
+    background-color: skyblue;
+}
+.larry {
+    background-color: yellowgreen;
+}
+.card {
+    padding: 10%;
+}
