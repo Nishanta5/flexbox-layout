@@ -1,0 +1,25 @@
+.top-container {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    background-color: rgb(48, 48, 248);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.main-container {
+    grid-template-columns: 1fr 2fr 1fr;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+.navbar {
+    background-color: turquoise;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-content {
+    background-color: dimgray;
+    height: 300px;
+}

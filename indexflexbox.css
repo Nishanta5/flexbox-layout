@@ -1,7 +1,7 @@
 .main-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10%;
+    grid-gap: 5%;
 }
 .card {
     color: rgb(168, 66, 66);
