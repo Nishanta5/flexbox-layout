@@ -1,0 +1,25 @@
+.main-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+.header {
+    grid-column: 1/-1;
+    background-color: grey;
+}
+.sidebar1 {
+    grid-column: 1/2;
+    background-color: indianred;
+    grid-row: 2/4;
+}
+.main-content {
+    grid-column: 2/4;
+    background-color: indigo;
+    grid-row: 2/4;
+}
+.sidebar2 {
+    grid-column: 4/5;
+    background-color: lawngreen;
+    grid-row: 2/4;
+}
