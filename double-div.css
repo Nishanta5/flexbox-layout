@@ -1,0 +1,46 @@
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 5rem);
+    background-color: palevioletred;
+    grid-gap: 10px;
+}
+.flexbox1 {
+    background-color: skyblue;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+.flexbox2 {
+    background-color: skyblue;
+    grid-column: 1/3;
+    grid-row: 2/6;
+}
+.flexbox3 {
+    background-color: purple;
+    grid-column: 3/7;
+    grid-row: 2/6;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.flexbox5 {
+    display: flex;
+    justify-content: space-between;
+}
+.smallbox {
+    align-items: center;
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 50px;
+}
+.flexbox4 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.flexbox6 {
+    grid-column: 1/-1;
+    background-color: yellow;
+}
