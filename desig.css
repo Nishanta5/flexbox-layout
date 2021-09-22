@@ -1,0 +1,49 @@
+.design {
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    grid-template-rows: repeat(5, 5rem);
+}
+.main-heading {
+    grid-row: 1/2;
+    grid-column: 1/-1;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+.heading {
+    display: flex;
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    justify-content: center;
+    color: white;
+}
+.flexbox {
+    display: flex;
+    grid-column: 2/5;
+    color: white;
+    justify-content: center;
+}
+.on-click {
+    display: inline-block;
+    grid-column: 3/4;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    font-size: 20px;
+    margin: 4px 2px;
+}
+.main-container {
+    background-color: rgb(52, 101, 248);
+}
+.next-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(60, 106, 245);
+    color: white;
+}
+.psd-html {
+    margin: 0px 20px;
+}
+.inline {
+    color: goldenrod;
+}

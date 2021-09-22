@@ -1,0 +1,27 @@
+.overview-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 40px;
+}
+.icon {
+    width: 50px;
+}
+.logo {
+    background-color: rgb(15, 108, 248);
+}
+.details {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 20px;
+}
+.table {
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+}
+tr:nth-child(even) {
+    background-color: rgb(149, 177, 174);
+}
