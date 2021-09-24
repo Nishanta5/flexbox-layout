@@ -1,0 +1,75 @@
+.heading {
+    background-color: rgb(221, 218, 218);
+    margin: 0px;
+    color: rgb(70, 70, 70);
+}
+.horizon-container {
+    background-image: url(./photos/girls\ with\ phn2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin: 0px;
+    text-align: center;
+}
+.main-heading {
+    margin: 0px;
+    padding: 90px 1px 1px 1px;
+    color: whitesmoke;
+}
+.second-heading {
+    color: rgb(107, 107, 107);
+}
+.submite {
+    font-size: 10px;
+    padding: 5px 10px;
+    background-color: rgb(255, 174, 0);
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.button2 {
+    margin: 100px 1px 1px 1px;
+}
+.budgets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 4rem);
+    grid-gap: 10px;
+}
+.grid-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+}
+.para-1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+}
+.facebook {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.grid-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+}
+.para-2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+.youtube {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.videocall {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.grid-3 {
+    text-align: center;
+}
+.para-3 {
+    text-align: center;
+}
