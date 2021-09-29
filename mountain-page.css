@@ -1,0 +1,19 @@
+.first-container {
+    background-image: url(./photos/mountain.jpeg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+}
+.first-main-para {
+    color: bisque;
+}
+.link {
+    color: rgb(255, 255, 255) !important;
+}
+.flexbox {
+    padding: 1px 50px;
+}
