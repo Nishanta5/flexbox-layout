@@ -1,0 +1,47 @@
+.main_profile-container {
+    background-image: url(./photos/motorcycle-page.jpeg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.service-text {
+    width: 60%;
+    text-align: center;
+}
+.front-size {
+    font-size: 40px;
+}
+.para-size {
+    font-size: 15px;
+}
+.text {
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bike-image-1 {
+    height: 80vh;
+}
+.bike-image-2 {
+    width: 100%;
+}
+.storage-container {
+    display: flex;
+}
+.large-font {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    margin-top: 100px;
+}
+.text-size-2 {
+    font-size: 40px;
+}
+.paragraph {
+    font-size: 15px;
+}
